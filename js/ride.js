@@ -101,7 +101,7 @@ let map;
 
             WildRydes.marker  = L.marker([loc.coords.latitude, loc.coords.longitude]).addTo(map);
             var myIcon = L.icon({
-                iconUrl: unicornIMages[Math.floor((Math.random()*this.length))],
+                iconUrl: unicornIMages[Math.floor((Math.random()*this.length))].toString(),
                 iconSize: [25, 25],
                 iconAnchor: [22, 24],
                 shadowSize: [25, 25],
