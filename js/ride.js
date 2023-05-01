@@ -1,5 +1,5 @@
 /*global WildRydes _config*/
-const unicornIMages = ["images/unicorn-icon.png", "images/unicorn-icon-blue.png", "images/unicorn-icon-blurple.png", "images/unicorn-icon-green.png", "images/unicorn-icon-pruple.png"];
+//const unicornIMages = ["images/unicorn-icon.png", "images/unicorn-icon-blue.png", "images/unicorn-icon-blurple.png", "images/unicorn-icon-green.png", "images/unicorn-icon-pruple.png"];
 var WildRydes = window.WildRydes || {};
 WildRydes.map = WildRydes.map || {};
 let map;
@@ -101,7 +101,7 @@ let map;
 
             WildRydes.marker  = L.marker([loc.coords.latitude, loc.coords.longitude]).addTo(map);
             var myIcon = L.icon({
-                iconUrl: unicornIMages[Math.floor((Math.random()*this.length))].toString(),
+                iconUrl: 'images/unicorn-icon-blue.png',
                 iconSize: [25, 25],
                 iconAnchor: [22, 24],
                 shadowSize: [25, 25],
