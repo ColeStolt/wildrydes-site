@@ -1,5 +1,5 @@
 /*global WildRydes _config*/
-const unicornIMages = ["images/unicorn-icon.png", "images/unicorn-icon-blue.png", "images/unicorn-icon-blurple.png", "images/unicorn-icon-green.png", "images/unicorn-icon-pruple.png"]
+const unicornIMages = ["images/unicorn-icon.png", "images/unicorn-icon-blue.png", "images/unicorn-icon-blurple.png", "images/unicorn-icon-green.png", "images/unicorn-icon-pruple.png"];
 var WildRydes = window.WildRydes || {};
 WildRydes.map = WildRydes.map || {};
 let map;
