@@ -11,27 +11,27 @@ const ddb = new AWS.DynamoDB.DocumentClient();
 const fleet = [
 	{
 		Name: 'Bucephalus',
-		Color: 'Golden',
+		Color: Math.floor(Math.random()*16777215).toString(16),
 		Gender: 'Male',
 	},
 	{
 		Name: 'Scrappy',
-		Color: 'Mean Green',
+		Color: Math.floor(Math.random()*16777215).toString(16),
 		Gender: 'Male',
 	},
 	{
 		Name: 'Cosmo',
-		Color: 'Royal Blue',
+		Color: Math.floor(Math.random()*16777215).toString(16),
 		Gender: 'Male',
 	},
 	{
-		Name: 'Shadowfax',
+		Name: Math.floor(Math.random()*16777215).toString(16),
 		Color: 'White',
 		Gender: 'Male',
 	},
 	{
 		Name: 'Rocinante',
-		Color: 'Yellow',
+		Color: Math.floor(Math.random()*16777215).toString(16),
 		Gender: 'Female',
 	},
 ];
